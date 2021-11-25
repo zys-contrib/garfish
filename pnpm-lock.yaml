@@ -43,7 +43,7 @@ importers:
       rimraf: 3.0.2
       ts-jest: 27.0.7
       tslib: 2.3.1
-      tsup: 5.7.2
+      tsup: 5.10.0
       typescript: 4.4.3
       wait-on: 6.0.0
       workspace-tools: 0.16.2
@@ -88,7 +88,7 @@ importers:
       rimraf: 3.0.2
       ts-jest: 27.0.7_ea8eecb57f6c3978f25f89c419c42230
       tslib: 2.3.1
-      tsup: 5.7.2_typescript@4.4.3
+      tsup: 5.10.0_typescript@4.4.3
       typescript: 4.4.3
       wait-on: 6.0.0
       workspace-tools: 0.16.2
@@ -9480,6 +9480,14 @@ packages:
   /builtin-status-codes/3.0.0:
     resolution: {integrity: sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=}
 
+  /bundle-require/2.1.8_esbuild@0.13.4:
+    resolution: {integrity: sha512-oOEg3A0hy/YzvNWNowtKD0pmhZKseOFweCbgyMqTIih4gRY1nJWsvrOCT27L9NbIyL5jMjTFrAUpGxxpW68Puw==}
+    peerDependencies:
+      esbuild: '>=0.13'
+    dependencies:
+      esbuild: 0.13.4
+    dev: true
+
   /bytes/3.0.0:
     resolution: {integrity: sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=}
     engines: {node: '>= 0.8'}
@@ -9488,8 +9496,8 @@ packages:
     resolution: {integrity: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==}
     engines: {node: '>= 0.8'}
 
-  /cac/6.7.3:
-    resolution: {integrity: sha512-ECVqVZh74qgSuZG9YOt2OJPI3wGcf+EwwuF/XIOYqZBD0KZYLtgPWqFPxmDPQ6joxI1nOlvVgRV6VT53Ooyocg==}
+  /cac/6.7.12:
+    resolution: {integrity: sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==}
     engines: {node: '>=8'}
     dev: true
 
@@ -13039,7 +13047,7 @@ packages:
       debug:
         optional: true
     dependencies:
-      debug: 4.3.2_supports-color@6.1.0
+      debug: 4.3.2
 
   /for-each/0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
@@ -14229,7 +14237,7 @@ packages:
       import-from: 2.1.0
 
   /import-cwd/3.0.0:
-    resolution: {integrity: sha1-IIRVR3GAFRJuqbNna3WS+4vUz5I=}
+    resolution: {integrity: sha512-4pnzH16plW+hgvRECbDWpQl3cqtvSofHWh44met7ESfZ8UZOWWddm8hEyDTqREJ9RbYHY8gi8DqmaelApoOGMg==}
     engines: {node: '>=8'}
     dependencies:
       import-from: 3.0.0
@@ -15876,7 +15884,7 @@ packages:
       '@sideway/pinpoint': 2.0.0
 
   /joycon/3.0.1:
-    resolution: {integrity: sha1-kHTJsIzPN6Zyb/dKGEhfhe/K3a8=}
+    resolution: {integrity: sha512-SJcJNBg32dGgxhPtM0wQqxqV0ax9k/9TaUskGDSJkSFSQOEWWvQ3zzWdGQRIUry2j1zA5+ReH13t0Mf3StuVZA==}
     engines: {node: '>=10'}
     dev: true
 
@@ -18155,7 +18163,7 @@ packages:
     engines: {node: '>=0.10.0'}
 
   /pirates/4.0.1:
-    resolution: {integrity: sha1-ZDqSyviUVm+RsrmG0sZpUKji+4c=}
+    resolution: {integrity: sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA==}
     engines: {node: '>= 6'}
     dependencies:
       node-modules-regexp: 1.0.0
@@ -21063,8 +21071,8 @@ packages:
       hash-base: 3.1.0
       inherits: 2.0.4
 
-  /rollup/2.57.0:
-    resolution: {integrity: sha512-bKQIh1rWKofRee6mv8SrF2HdP6pea5QkwBZSMImJysFj39gQuiV8MEPBjXOCpzk3wSYp63M2v2wkWBmFC8O/rg==}
+  /rollup/2.60.1:
+    resolution: {integrity: sha512-akwfnpjY0rXEDSn1UTVfKXJhPsEBu+imi1gqBA1ZkHGydUnkV/fWCC90P7rDaLEW8KTwBcS1G3N4893Ndz+jwg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -22571,7 +22579,7 @@ packages:
     dev: true
 
   /tree-kill/1.2.2:
-    resolution: {integrity: sha1-TKCakJLIi3OnzcXooBtQeweQoMw=}
+    resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
     dev: true
 
@@ -22683,8 +22691,8 @@ packages:
     engines: {node: '>=0.6.x'}
     dev: true
 
-  /tsup/5.7.2_typescript@4.4.3:
-    resolution: {integrity: sha512-YxryYjhB54h8YUNlN7Oze9PnqcuN++vwrFW6qtjC1ve9eQPvzCJw0rN0WPOuEQXburwo+gtDid9C4eQZ6x/Yog==}
+  /tsup/5.10.0_typescript@4.4.3:
+    resolution: {integrity: sha512-KbdQu66JAz60TIZ/ZqK3tnVCdiTP3MXYIFD1eX2q6+aFpLdc+zYPquv5yXVA/49dcosUBZyIY34aqHFIg+7Sbw==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
@@ -22692,8 +22700,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      cac: 6.7.3
-      chalk: 4.1.2
+      bundle-require: 2.1.8_esbuild@0.13.4
+      cac: 6.7.12
       chokidar: 3.5.2
       debug: 4.3.2
       esbuild: 0.13.4
@@ -22702,7 +22710,7 @@ packages:
       joycon: 3.0.1
       postcss-load-config: 3.1.0
       resolve-from: 5.0.0
-      rollup: 2.57.0
+      rollup: 2.60.1
       sucrase: 3.20.1
       tree-kill: 1.2.2
       typescript: 4.4.3
